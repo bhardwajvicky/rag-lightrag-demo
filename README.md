@@ -29,6 +29,8 @@ LightRAG is a lightweight yet powerful RAG framework that enhances retrieval qua
 - Scalable for large document collections
 - Requires Neo4j installation:
 - requirements.txt includes neo4j
+- The graph of BIAN document from neo4j
+![image](https://github.com/user-attachments/assets/6d3ebbe6-f222-4ce5-a442-1401e9c02218)
 
 ### NetworkX Approach
 - Lightweight in-memory graph solution
@@ -152,7 +154,6 @@ These directories store the necessary indexes and cached data for the RAG system
 
 ## Notes
 
-- When running in a Jupyter notebook, uncomment the `nest_asyncio` lines in the code to handle asynchronous operations
 - The system uses `gpt_4o_mini_complete` as the default LLM model, but can be configured to use other models
 - For BIAN documentation, Neo4j storage is specifically used for graph operations
 - LightRAG's dual-view retrieval can be adjusted through QueryParam settings for different use cases
