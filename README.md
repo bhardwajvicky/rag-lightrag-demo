@@ -64,7 +64,16 @@ source .venv/bin/activate
 ```bash
 pip install -e .
 ```
-4. Set environment variables for OpenAI and Neo4j
+
+4. Insall Docker Desktop or any other local container host, & run
+```bash
+docker run \
+    --restart always \
+    --publish=7474:7474 --publish=7687:7687 \
+    neo4j:5.25.1
+```
+
+5. Set environment variables for OpenAI and Neo4j
 ```bash
 export OPENAI_API_KEY="sk-..."
 export NEO4J_URI="neo4j://localhost:7687"
@@ -74,7 +83,11 @@ export NEO4J_PASSWORD="password"
 
 ## Document Preparation
 
-The system expects documents to be in the `raw-docs` folder. If you have PDF files, they need to be converted to markdown format using PyMuPDF4LLM:
+Two separate RAG storages are prepared using:
+1. BIAN document - https://bian.org/wp-content/uploads/2020/10/BIAN-Semantic-API-Pactitioner-Guide-V8.1-FINAL.pdf
+2. ARPA - Managing Data Risk - https://www.apra.gov.au/sites/default/files/Prudential-Practice-Guide-CPG-235-Managing-Data-Risk_1.pdf
+
+The system expects documents to be in the `raw-docs` folder. If you have PDF files, they need to be converted to markdown format using PyMuPDF4LLM. In the raw-docs you will find that .md files already exists.
 
 ```python
 import fitz  # PyMuPDF
