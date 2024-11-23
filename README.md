@@ -13,6 +13,13 @@ LightRAG is a lightweight yet powerful RAG framework that enhances retrieval qua
 - **Global Knowledge Integration**: Leverages knowledge graphs for comprehensive understanding
 - **Cost-Effective Performance**: Achieves comparable or better results than GraphRAG with reduced computational overhead
 
+Indexing Flow
+https://camo.githubusercontent.com/fa79bd2d317163583e8acdeb7c28b16d10652cfcd92c4bab85cc00954ffb1888/68747470733a2f2f6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f31312f4c696768745241472d566563746f7244422d4a736f6e2d4b562d53746f72652d496e646578696e672d466c6f7763686172742d7363616c65642e6a7067![image](https://github.com/user-attachments/assets/df1ed771-9b10-4d91-805b-836277cfd824)
+
+Retrieval & Querying Flow
+https://camo.githubusercontent.com/32d67fdd28040d24756373fc674cae593b9961c2ef84fb8a0a8104f33735ab2a/68747470733a2f2f6c6561726e6f70656e63762e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f31312f4c696768745241472d5175657279696e672d466c6f7763686172742d4475616c2d4c6576656c2d52657472696576616c2d47656e65726174696f6e2d4b6e6f776c656467652d4772617068732d7363616c65642e6a7067![image](https://github.com/user-attachments/assets/41a6cdf3-8ac8-4a9e-b8ab-984545a78261)
+
+
 [Learn more about LightRAG](https://github.com/HKUDS/LightRAG)
 
 ## Features
